@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+	
+  <test  name="Test">
+	  <parameter  name="browser" value ="chrome"></parameter>
+    <classes>
+      <class name="Login.FacebookLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test-01">
+	     <parameter  name="browser" value ="firefox"></parameter>
+
+    <classes>
+      
+      <class name="Login.FBlogin"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

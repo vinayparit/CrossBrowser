@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-10T15:57:55 IST" name="Suite" finished-at="2024-05-10T15:59:28 IST" duration-ms="92426">
+    <groups>
+    </groups>
+    <test started-at="2024-05-10T15:57:55 IST" name="Test" finished-at="2024-05-10T15:58:47 IST" duration-ms="51939">
+      <class name="Login.FacebookLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.FacebookLogin@7586beff]" started-at="2024-05-10T15:57:55 IST" name="launchBrowser" finished-at="2024-05-10T15:58:23 IST" duration-ms="27738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginToFB()[pri:0, instance:Login.FacebookLogin@7586beff]" started-at="2024-05-10T15:58:24 IST" name="loginToFB" finished-at="2024-05-10T15:58:45 IST" duration-ms="21150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFB -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.FacebookLogin@7586beff]" started-at="2024-05-10T15:58:45 IST" name="closeBrowser" finished-at="2024-05-10T15:58:47 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.FacebookLogin -->
+    </test> <!-- Test -->
+    <test started-at="2024-05-10T15:57:55 IST" name="Test-01" finished-at="2024-05-10T15:59:28 IST" duration-ms="92426">
+      <class name="Login.FBlogin$FacebookLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.FBlogin$FacebookLogin@279fedbd]" started-at="2024-05-10T15:57:55 IST" name="launchBrowser" finished-at="2024-05-10T15:59:03 IST" duration-ms="67846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginToFB()[pri:0, instance:Login.FBlogin$FacebookLogin@279fedbd]" started-at="2024-05-10T15:59:03 IST" name="loginToFB" finished-at="2024-05-10T15:59:20 IST" duration-ms="16630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFB -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.FBlogin$FacebookLogin@279fedbd]" started-at="2024-05-10T15:59:20 IST" name="closeBrowser" finished-at="2024-05-10T15:59:28 IST" duration-ms="7929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.FBlogin$FacebookLogin -->
+    </test> <!-- Test-01 -->
+  </suite> <!-- Suite -->
+</testng-results>

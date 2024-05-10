@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <parameter name="Brwoser" value="firefox"/>
+  <test thread-count="2" parallel="classes" name="Test-01(failed)">
+    <classes>
+      <class name="Login.FBlogin$FacebookLogin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToFB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Login.FBlogin$FacebookLogin -->
+    </classes>
+  </test> <!-- Test-01(failed) -->
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Login.FacebookLogin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToFB"/>
+        </methods>
+      </class> <!-- Login.FacebookLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
